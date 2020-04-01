@@ -104,4 +104,4 @@ def game(word):
 
 
 
-game("Test")
+game("Test")    # word player is attempting to correctly guess
