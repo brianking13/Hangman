@@ -69,7 +69,7 @@ def wrong(word,the_word):
     turns = turns - 1
     if turns == 0:
         print("")
-        print("You lost. You FUCKING lost " + str(call) + ". You are so dumb.")
+        print("You lost. You LOST " + str(call) + ". You are so dumb.")
         print("")
         print("The word was actually " + str(word))
         run = False
@@ -92,6 +92,7 @@ def are_equal(word, the_word):
     print("")
     print("You have won " + str(call) + "! Great job.")
     run = False
+    sleep(10)
     return
 
 
@@ -103,4 +104,4 @@ def game(word):
 
 
 
-game("Marcel")
+game("Test")
